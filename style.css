@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffafcc, #bde0fe);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.anime-text {
+  font-size: 5rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ff88cc, 0 0 20px #ff88cc, 0 0 30px #ff88cc;
+  font-weight: bold;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff88cc, 0 0 20px #ff88cc, 0 0 30px #ff88cc;
+  }
+  to {
+    text-shadow: 0 0 20px #ff66aa, 0 0 40px #ff66aa, 0 0 60px #ff66aa;
+  }
+}
